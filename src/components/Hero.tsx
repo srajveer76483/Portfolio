@@ -120,7 +120,7 @@ export const Hero: React.FC = () => {
                 {/* Photo container - no rotation */}
                 <div className="w-full h-full rounded-full overflow-hidden">
                   <img
-                    src="/dangi copy.jpg"
+                    src="/dangi.jpg"
                     alt="Rajveer Singh"
                     className="w-full h-full object-cover"
                   />

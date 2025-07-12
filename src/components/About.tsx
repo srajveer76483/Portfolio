@@ -67,11 +67,7 @@ export const About: React.FC = () => {
                 Hooked on Docker 🐳, Kubernetes ☸️, Jenkins 🔧. Now mastering MLOps and Infrastructure-as-Code to deliver smarter pipelines.
               </p>
               
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="text-center p-4 bg-black/30 rounded-lg">
-                  <div className="text-2xl font-bold text-[#33d1ff]">2+</div>
-                  <div className="text-sm text-gray-400">Years Experience</div>
-                </div>
+              <div className="flex justify-center mb-6">
                 <div className="text-center p-4 bg-black/30 rounded-lg">
                   <div className="text-2xl font-bold text-[#33d1ff]">10+</div>
                   <div className="text-sm text-gray-400">Projects Completed</div>
