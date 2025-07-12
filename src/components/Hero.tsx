@@ -108,11 +108,9 @@ export const Hero: React.FC = () => {
             <motion.div
               className="absolute inset-0 rounded-full bg-gradient-to-r from-[#33d1ff] to-[#00a8ff] p-1"
               animate={{ 
-                rotate: 360,
                 scale: [1, 1.05, 1]
               }}
               transition={{ 
-                rotate: { duration: 8, repeat: Infinity, ease: "linear" },
                 scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
               }}
             >
@@ -120,7 +118,7 @@ export const Hero: React.FC = () => {
                 {/* Photo container - no rotation */}
                 <div className="w-full h-full rounded-full overflow-hidden">
                   <img
-                    src="/dangi.jpg"
+                    src="/dangi copy.jpg"
                     alt="Rajveer Singh"
                     className="w-full h-full object-cover"
                   />
